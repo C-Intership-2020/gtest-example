@@ -15,6 +15,7 @@ class MyClass {
 
   static std::unique_ptr<MyClass> make() { return std::make_unique<MyClass>();}
 
+
   unsigned int GetState() const {
     return state_;
   }
